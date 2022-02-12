@@ -43,20 +43,20 @@
       <div id="education" class="content-item">
         <div class="vertical-center">
           <h2>Education</h2>
-          <!-- <?php foreach($json_data['education'] AS $education) { ?>
+          <?php foreach($json_data['education'] AS $education) { ?>
               <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
                   <h3 class="mb-0"><?php echo $education['school']; ?></h3>
                   <div class="subheading mb-3"><?php echo $education['major']; ?></div>
-                  <?php foreach($json_data['education']['completion']) { ?>
-                    <p><?php echo $education['degree']; ?></p>
+                  <?php foreach($json_data['education']['completion'] AS $completion) { ?>
+                    <p><?php echo $completion['degree']; ?></p>
                   <?php } ?>
                 </div>
                 <div class="flex-shrink-0">
                   <span class="text-primary"><?php echo $education['period']; ?></span>
                 </div>
               </div>
-          <?php  } ?> -->
+          <?php  } ?>
         </div>
       </div>
       <hr>
