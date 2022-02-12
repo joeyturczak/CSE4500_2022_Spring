@@ -48,9 +48,9 @@
                 <div class="flex-grow-1">
                   <h3 class="mb-0"><?php echo $experience['school']; ?></h3>
                   <div class="subheading mb-3"><?php echo $experience['major']; ?></div>
-                  <?php foreach($json_data['education']['completion']) { ?>
+                  <!-- <?php foreach($json_data['education']['completion']) { ?>
                     <p><?php echo $experience['degree']; ?></p>
-                  <?php } ?>
+                  <?php } ?> -->
                 </div>
                 <div class="flex-shrink-0">
                   <span class="text-primary"><?php echo $experience['period']; ?></span>
