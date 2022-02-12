@@ -5,6 +5,41 @@
     "phone": "(123)456-7890",
     "email": "006949989@coyote.csusb.edu",
     "introduction": "I am a data analyst and a Computer Systems: Game Development major at CSUSB.",
+    "education": [
+        {
+            "school":"CSUSB",
+            "major":"Computer Systems: Game Development",
+            "period":"August 2020 - Present",
+            "completion": [
+                {
+                    "degree":"In Progress"
+                }
+            ]
+        },
+        {
+            "school":"UCI Division of Continuing Education",
+            "major":"Predictive Analytics",
+            "period":"August 2020 - Present",
+            "completion": [
+                {
+                    "degree":"Predictive Analytics Certificate"
+                }
+            ]
+        },
+        {
+            "school":"Crafton Hills College",
+            "major":"Computer Systems: Game Development",
+            "period":"January 2004 - December 2012",
+            "completion": [
+                {
+                    "degree":"Associate of Science Degree in Computer Information Systems / Programming"
+                },
+                {
+                    "degree":"Associate of Arts Degree in Business Administration"
+                }
+            ]
+        }
+    ],
     "experience":[
       {
         "title":"DATA ANALYST II",
