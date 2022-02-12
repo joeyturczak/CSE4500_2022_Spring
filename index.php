@@ -46,14 +46,14 @@
           <?php foreach($json_data['education'] AS $education) { ?>
               <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
-                  <h3 class="mb-0"><?php echo $experience['school']; ?></h3>
-                  <div class="subheading mb-3"><?php echo $experience['major']; ?></div>
-                  <!-- <?php foreach($json_data['education']['completion']) { ?>
-                    <p><?php echo $experience['degree']; ?></p>
-                  <?php } ?> -->
+                  <h3 class="mb-0"><?php echo $education['school']; ?></h3>
+                  <div class="subheading mb-3"><?php echo $education['major']; ?></div>
+                  <?php foreach($json_data['education']['completion']) { ?>
+                    <p><?php echo $education['degree']; ?></p>
+                  <?php } ?>
                 </div>
                 <div class="flex-shrink-0">
-                  <span class="text-primary"><?php echo $experience['period']; ?></span>
+                  <span class="text-primary"><?php echo $education['period']; ?></span>
                 </div>
               </div>
           <?php  } ?>
