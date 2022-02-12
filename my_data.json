@@ -19,7 +19,7 @@
         {
             "school":"UCI Division of Continuing Education",
             "major":"Predictive Analytics",
-            "period":"August 2020 - Present",
+            "period":"February 2019 - May 2020",
             "completion": [
                 {
                     "degree":"Predictive Analytics Certificate"
@@ -46,6 +46,16 @@
         "employer":"Yaamava' Resort & Casino",
         "period":"February 2020 - Present",
         "description":"Providing analytical insights into various aspects of the business."
+      },
+      {
+        "title":"CENTRALIZED SCHEDULING SPECIALIST",
+        "employer":"San Manuel Casino",
+        "period":"September 2019 - February 2020",
+        "description":"Providing labor allocation recommendations based on business volume forecasts."
       }
-    ]
+    ],
+    "skills": {
+        "languages":"Python, R, SQL, C++, C#, Java, Javascript",
+        "software":"SAS Enterprise Guide, Tableau, R Studio"
+    }
   }

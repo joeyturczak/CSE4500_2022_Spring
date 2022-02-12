@@ -81,7 +81,18 @@
       <div id="skills" class="content-item">
         <div class="vertical-center">
           <h2>Skills</h2>
-          <p>...</p>
+          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Languages</h3>
+              <div class="subheading mb-3"><?php echo $json_data['skills']['languages']; ?></div>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Software</h3>
+              <div class="subheading mb-3"><?php echo $json_data['skills']['software']; ?></div>
+            </div>
+          </div>
         </div>
       </div>
       <hr>
