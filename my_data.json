@@ -1,0 +1,16 @@
+{
+    "first-name": "Joey",
+    "last-name": "Turczak",
+    "address": "5500 University Pkwy, San Bernardino, CA 92407",
+    "phone": "(123)456-7890",
+    "email": "006949989@coyote.csusb.edu",
+    "introduction": "I am a data analyst and a Computer Systems: Game Development major at CSUSB.",
+    "experience":[
+      {
+        "title":"DATA ANALYST II",
+        "employer":"Yaamava' Resort & Casino",
+        "period":"February 2020 - Present",
+        "description":"Providing analytical insights into various aspects of the business."
+      }
+    ]
+  }

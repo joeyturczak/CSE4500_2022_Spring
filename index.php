@@ -65,14 +65,14 @@
         </div>
       </div>
       <hr>
-      <div id="education" class="content-item">
+      <div id="skills" class="content-item">
         <div class="vertical-center">
           <h2>Skills</h2>
           <p>...</p>
         </div>
       </div>
       <hr>
-      <div id="education" class="content-item">
+      <div id="interests" class="content-item">
         <div class="vertical-center">
           <h2>Interests</h2>
           <p>...</p>
