@@ -48,7 +48,7 @@
                 <div class="flex-grow-1">
                   <h3 class="mb-0"><?php echo $education['school']; ?></h3>
                   <div class="subheading mb-3"><?php echo $education['major']; ?></div>
-                  <?php foreach($json_data['education']['completion'] AS $completion) { ?>
+                  <?php foreach($education['completion'] AS $completion) { ?>
                     <p><?php echo $completion['degree']; ?></p>
                   <?php } ?>
                 </div>
