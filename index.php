@@ -99,7 +99,11 @@
       <div id="interests" class="content-item">
         <div class="vertical-center">
           <h2>Interests</h2>
-          <p>...</p>
+          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+              <div class="subheading mb-3"><?php echo $json_data['interests']; ?></div>
+            </div>
+          </div>
         </div>
       </div>
       <hr>

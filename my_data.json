@@ -49,7 +49,7 @@
       },
       {
         "title":"CENTRALIZED SCHEDULING SPECIALIST",
-        "employer":"San Manuel Casino",
+        "employer":"Yaamava' Resort & Casino",
         "period":"September 2019 - February 2020",
         "description":"Providing labor allocation recommendations based on business volume forecasts."
       }
@@ -57,5 +57,6 @@
     "skills": {
         "languages":"Python, R, SQL, C++, C#, Java, Javascript",
         "software":"SAS Enterprise Guide, Tableau, R Studio"
-    }
+    },
+    "interests":"Video games, yoga, podcasts, nonfiction books, programming"
   }
