@@ -1,4 +1,6 @@
 <?php
+    // URL for assignment: https://joey-turczak-cse4500.herokuapp.com/
+    
     $json_file = file_get_contents('my_data.json');
     $json_data = json_decode($json_file,true);
 ?>
